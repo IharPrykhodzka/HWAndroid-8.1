@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/rootH"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:visibility="visible"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:id="@+id/firstLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/totalH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="2dp"
+                android:background="#000000"
+                android:gravity="center|end"
+                android:text="@string/_0"
+                android:textColor="@android:color/background_light"
+                android:textSize="@android:dimen/app_icon_size" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/secondLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/engineeringOrNormalH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cleanH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#ED3124"
+                android:gravity="center"
+                android:text="@string/cH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/plusOrMinusH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/plusOrMinusH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/percentH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/percentH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/divisionH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/divisionH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/thirdLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/secondLLH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sevenH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_7H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/eightH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_8H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/nineH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_9H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/multiplicationH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/multiplicationH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/fourthLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thirdLLH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fourH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_4H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/fiveH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_5H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/sixH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_6H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/minusH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/minusH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@id/fifthLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fourthLLH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@id/oneH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_1H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/twoH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_2H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/threeH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_3H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/plusH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/plusH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@id/sixthLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fifthLLH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@id/zeroH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="2"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_0H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/pointH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/pointH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/equallyH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/equallyH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@id/engineeringOrNormalH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstLLH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEnginOrNorm2H"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/txtEngineeringOrNormalH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/root2H"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:id="@id/firstLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/totalH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="2dp"
+                android:background="#000000"
+                android:gravity="center|end"
+                android:text="@string/_0H"
+                android:textColor="@android:color/background_light"
+                android:textSize="@android:dimen/app_icon_size" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@id/secondLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/engineeringOrNormalH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/logarithmH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/lnH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bracket1H"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/bracketH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bracket2H"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/bracket2H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/peeH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/peeH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@id/cleanH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#ED3124"
+                android:gravity="center"
+                android:text="@string/cH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/plusOrMinusH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/plusOrMinusH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/percentH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/percentH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/divisionH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/divisionH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@id/thirdLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/secondLLH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sinH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/sinH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/cosH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/cosH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/tgH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/tgH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/ctgH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/ctgH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@id/sevenH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_7H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/eightH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_8H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/nineH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_9H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/multiplicationH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/multiplicationH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@id/fourthLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thirdLLH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mcH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/mcH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/mrH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/mrH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/msH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/msH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/oneSignBackH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/oneSignBackH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@id/fourH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_4H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/fiveH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_5H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/sixH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_6H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@id/minusH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/minusH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/fifthLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fourthLLH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mPlusH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/mPlusH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/mMinusH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/mMinusH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/xSquaredH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/xSquaredH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/xCubedH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/xCubedH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/oneH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_1H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/twoH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_2H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/threeH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_3H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/plusH"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/plusH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/sixthLLH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fifthLLH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rootAtBase2H"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/rootAtBase2H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/rootAtBase3H"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/rootAtBase3H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/logH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/logH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/modH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#3951A6"
+                android:gravity="center"
+                android:text="@string/modH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/zeroH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="2"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/_0H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/pointH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#BEDDDA"
+                android:gravity="center"
+                android:text="@string/pointH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/equallyH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/equallyH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/engineeringOrNormalH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstLLH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEnginOrNorm1H"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="@string/txtEngineeringOrNormalH"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_light"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

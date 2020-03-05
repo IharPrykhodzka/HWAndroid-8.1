@@ -1,0 +1,2 @@
+rootProject.name='HWAndroid 8.1'
+include ':app'
