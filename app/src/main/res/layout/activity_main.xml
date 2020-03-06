@@ -15,7 +15,7 @@
         tools:context=".MainActivity">
 
 
-        <LinearLayout android:id="@id/firstLL"
+        <LinearLayout android:id="@+id/firstLL"
             android:orientation="horizontal"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
@@ -25,7 +25,7 @@
 
             <TextView android:id="@id/total"
                 android:layout_width="match_parent"
-                android:layout_height="180dp"
+                android:layout_height="220dp"
 
                 android:text="@string/_0"
                 android:gravity="center|end"
@@ -39,9 +39,9 @@
 
 
 
-        <LinearLayout android:id="@id/secondLL"
+        <LinearLayout android:id="@+id/secondLL"
             android:orientation="horizontal"
-            android:layout_below="@id/engineeringOrNormal"
+            android:layout_below="@id/engineeringOrNormal1"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_width="match_parent"
@@ -353,7 +353,7 @@
 
 
         <LinearLayout
-            android:id="@id/engineeringOrNormal"
+            android:id="@+id/engineeringOrNormal1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/firstLL"
@@ -362,7 +362,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnEnginOrNorm2"
+                android:id="@+id/btnEnginOrNorm1"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
 
@@ -391,10 +391,10 @@
         tools:context=".MainActivity">
 
         <LinearLayout
-            android:id="@+id/firstLL"
+            android:id="@id/firstLL"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_above="@+id/engineeringOrNormal"
+            android:layout_above="@+id/engineeringOrNormal2"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
@@ -415,7 +415,7 @@
 
 
         <LinearLayout
-            android:id="@+id/secondLL"
+            android:id="@id/secondLL"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
@@ -861,7 +861,7 @@
 
 
         <LinearLayout
-            android:id="@+id/engineeringOrNormal"
+            android:id="@+id/engineeringOrNormal2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@id/engineeringSecondLL"
@@ -870,7 +870,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnEnginOrNorm"
+                android:id="@+id/btnEnginOrNorm2"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
 

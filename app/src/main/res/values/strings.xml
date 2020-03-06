@@ -41,44 +41,4 @@
     <string name="mod">Mod</string>
     <string name="log">log</string>
 
-    <string name="_0H">0</string>
-    <string name="_7H">7</string>
-    <string name="_8H">8</string>
-    <string name="_9H">9</string>
-    <string name="divisionH">÷</string>
-    <string name="cH">C</string>
-    <string name="plusOrMinusH">+/-</string>
-    <string name="percentH">%</string>
-    <string name="multiplicationH">×</string>
-    <string name="_4H">4</string>
-    <string name="_5H">5</string>
-    <string name="_6H">6</string>
-    <string name="minusH">-</string>
-    <string name="_1H">1</string>
-    <string name="_2H">2</string>
-    <string name="_3H">3</string>
-    <string name="plusH">+</string>
-    <string name="pointH">.</string>
-    <string name="equallyH">=</string>
-    <string name="lnH">ln</string>
-    <string name="bracketH">(</string>
-    <string name="bracket2H">)</string>
-    <string name="peeH">π</string>
-    <string name="sinH">sin</string>
-    <string name="cosH">cos</string>
-    <string name="tgH">tg</string>
-    <string name="ctgH">ctg</string>
-    <string name="txtEngineeringOrNormalH">Инженерный / Стандартный</string>
-    <string name="mcH">MC</string>
-    <string name="mrH">MR</string>
-    <string name="msH">MS</string>
-    <string name="oneSignBackH">←</string>
-    <string name="mPlusH">M+</string>
-    <string name="mMinusH">M-</string>
-    <string name="xSquaredH">x²</string>
-    <string name="xCubedH">x³</string>
-    <string name="rootAtBase2H">√</string>
-    <string name="rootAtBase3H">³√</string>
-    <string name="modH">Mod</string>
-    <string name="logH">log</string>
 </resources>

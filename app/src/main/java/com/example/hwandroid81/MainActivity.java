@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         btnPlus = findViewById(R.id.plus);
         btnEqually = findViewById(R.id.equally);
         btnClean = findViewById(R.id.clean);
-        btnEngOrNrm = findViewById(R.id.btnEnginOrNorm);
+        btnEngOrNrm = findViewById(R.id.btnEnginOrNorm1);
         btnEngOrNrm2 = findViewById(R.id.btnEnginOrNorm2);
 
         btnEngOrNrm2.setOnClickListener(new View.OnClickListener() {
